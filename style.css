@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #d5d4d8;
+}
+
+#main-content {
+    text-align: center;
+    background: #2D3748;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#greetings h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #FFFFFF;
+}
+
+#greetings h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #10B981;
+}
+
+#info-text {
+    margin: 20px 0;
+    font-size: 1.2em;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#gen-pass-btn {
+    background: #10B981;
+    color: #FFFFFF;
+}
+
+#pass1-el {
+    background: gold;
+}
+
+#pass2-el {
+    background: goldenrod;
+}
+
+hr {
+    margin: 20px 0;
+    border: 1px solid #FFFFFF;
+}
